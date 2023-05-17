@@ -19,7 +19,7 @@ TEST_GROUP(temperature_test_group)
 TEST(temperature_test_group, simple_test)
 {
     float input = 20.00;
-    float output = fahrenheight_to_celsius(input);
+    float output = fahrenheit_to_celsius(input);
     CHECK_EQUAL(output, 68.00);
     
 }
