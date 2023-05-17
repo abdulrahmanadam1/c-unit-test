@@ -20,7 +20,7 @@ TEST(temperature_test_group, simple_test)
 {
     float input = 20.00;
     float output = fahrenheit_to_celsius(input);
-    CHECK_EQUAL(output, 68.00);
+    CHECK_EQUAL(output, (float)((input - 32) * (5.0/9.0)));
     
 }
 // TEST(temperature_test_group, null_test)
