@@ -1,7 +1,7 @@
 #include "CppUTest/TestHarness.h"
 
 extern "C" {
-    #include "average.h"
+    #include "temperature.h"
 }
 
 TEST_GROUP(average_test_group)
