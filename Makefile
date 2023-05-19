@@ -10,9 +10,11 @@ NAME = app.elf
 
 # Search path for header files
 CFLAGS += -I$(SRC_DIR)/average
+CFLAGS += -I$(SRC_DIR)/temperature
 
 CSOURCES = $(SRC_DIR)/main.c
 CSOURCES += $(wildcard $(SRC_DIR)/average/*.c)
+CSOURCES += $(wildcard $(SRC_DIR)/temperature/*.c)
 
 CFLAGS += -Wall
 
